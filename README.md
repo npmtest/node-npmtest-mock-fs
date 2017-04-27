@@ -1,6 +1,6 @@
 # npmtest-mock-fs
 
-#### test coverage for  [mock-fs (v4.2.0)](https://github.com/tschaub/mock-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-mock-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mock-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mock-fs.svg)](https://travis-ci.org/npmtest/node-npmtest-mock-fs)
+#### basic test coverage for  [mock-fs (v4.2.0)](https://github.com/tschaub/mock-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-mock-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mock-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mock-fs.svg)](https://travis-ci.org/npmtest/node-npmtest-mock-fs)
 
 #### A configurable mock file system.  You know, for testing.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mock-fs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mock-fs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mock-fs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mock-fs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mock-fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mock-fs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mock-fs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mock-fs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mock-fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mock-fs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mock-fs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mock-fs/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "pretest": "eslint benchmarks lib test",
         "test": "mocha --recursive test"
     },
-    "version": "4.2.0"
+    "version": "4.2.0",
+    "bin": {}
 }
 ```
 
